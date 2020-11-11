@@ -1,3 +1,5 @@
+// Copyright (c) 2019-2020 Segmed Inc.
+// Author: Wojciech Adam Koszek <wkoszek@segmed.ai>
 package namedetect
 
 import (
