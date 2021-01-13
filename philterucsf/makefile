@@ -7,7 +7,7 @@ names.go: out.names_first out.names_last
 		echo "// Author: Wojciech Adam Koszek <wkoszek@segmed.ai>"; \
 	) > names.go
 	jq -r 'keys[]' firstnames_minus_fps.json | awk 'BEGIN { \
-		printf("package namedetect\n"); \
+		printf("package philterucsf\n"); \
 		printf("var AllFirstNames = []string{\n"); \
 	} \
 	// { \
