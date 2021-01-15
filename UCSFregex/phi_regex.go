@@ -196,7 +196,6 @@ var AllRegexPattern = []string{
 	`\b(?i)contact\s(me|information|info|your|the)\b`,
 	`\b(?i)(aren\'t|couldn\'t|didn\'t|doesn\'t|don\'t|hadn\'t|hasn\'t|haven\'t|isn\'t|mightn\'t|shouldn\'t|wasn\'t|weren\'t|won\'t|wouldn\'t)\b`,
 	`\b(?i)(vocal|spinal|cervical)\scord(s)?\b`,
-	`\b(?i)crohn\'s\sdisease\b`,
 	`\b(?i)(a|per|the|same|next|each|every|by)\sday\b`,
 	`\b(?i)([0-9]+|one|two|three|four|five|six|seven|eight|nine|ten|few|several|couple[ ]{1,2}of)[ ]{1,2}days\b`,
 	`\b\d{1,2}\.\d{1,2}\-\d{1,2}\.\d{1,2}\b`,

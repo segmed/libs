@@ -30,10 +30,6 @@ phi_regex.go: out.regex_context_pattern out.regex_pattern
 	go build
 	go test
 
-# out.regex_context_pattern:
-# 	for f in ./regex_context/*.txt; do (cat "$$f" | sed 's/\[ \]/\\s/g; s/\\,/,/g; s/\\:/:/g';) >> out.regex_context_pattern; done
-# 	@wc -l out.regex_context_pattern
-# 	@echo "       ^^ -- this is how many unique regex context pattern we have"
 out.regex_context_pattern:
 	for f in ./regex_context/*.txt; do (cat "$$f" ; echo) >> out.regex_context_pattern; done
 	@wc -l out.regex_context_pattern
