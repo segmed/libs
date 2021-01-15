@@ -1,5 +1,5 @@
 // Copyright (c) 2020-2021 Segmed Inc.
-package main
+package UCSFregex
 var AllRegexContextPattern = []string{
 	`(?<!\bmg\b)(((?![^a-zA-Z0-9*]+(CC\:|CT|ID|DD\:|D\:|DT\:|DV\:|RE\:|T\:|M\.D|MD|NP|RN|PA|OD|OR|PM|PT|(MR|U)(\s)?#(:)?|\([A-Z]{1,2}\))[^a-zA-Z0-9*]+)((\s([^a-zA-Z0-9*]+)?\b[A-Z]\.[ ][A-Z]\b([^a-zA-Z0-9*:]+)?\s)|(\s([^a-zA-Z0-9*]+)?\b[A-Z]\.[A-Z]\b([^a-zA-Z0-9*:]+)?\s)|(\s([^a-zA-Z0-9*]+)?\b[A-Z]{2}\b([^a-zA-Z0-9*:]+)?\s)|(\s([^a-zA-Z0-9*]+)?\b[A-Z]\b([^a-zA-Z0-9*:]+)?\s)|(\s([^a-zA-Z0-9*]+)?\b[A-Z]{2}\b([^a-zA-Z0-9*:]+)?\b)))|((?<!.)[A-Z]{1,2}\b([^a-zA-Z0-9*:]+)?\s))(?!saw[^a-b])`,
 	`(?<!\,)[ ]+\b[A-Z][a-zA-Z]+\b\,[ ]+`,
