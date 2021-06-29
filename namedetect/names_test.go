@@ -8,6 +8,8 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+//go:generate sh generate_names.sh
+
 func TestNames(t *testing.T) {
 	fnum := len(AllFirstNames)
 	lnum := len(AllLastNames)
